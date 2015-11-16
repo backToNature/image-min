@@ -13,6 +13,7 @@ gulp.task('min', function () {
             interlaced: true, //类型：Boolean 默认：false 隔行扫描gif进行渲染
             multipass: true //类型：Boolean 默认：false 多次优化svg直到完全优化
             */
+//            optimizationLevel: 7,
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()] //使用pngquant深度压缩png图片的imagemin插件
