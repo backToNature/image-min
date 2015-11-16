@@ -1,0 +1,25 @@
+{
+  "name": "image-min",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+"devDependencies": {
+    "gulp": "*",
+    "gulp-imagemin" : "*",
+    "imagemin-pngquant": "*",
+    "gulp-cache": "*"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backToNature/image-min.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backToNature/image-min/issues"
+  },
+  "homepage": "https://github.com/backToNature/image-min#readme"
+}
